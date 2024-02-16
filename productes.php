@@ -12,11 +12,12 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
-                    <li data-filter="*" class="filter-active">Productes</li>
+                    <li data-filter="*" class="filter-active">TOTS</li>
+                    <!--bucle categories-->
                 </ul>
             </div>
         </div>
-
+<!-- bucle productes-->
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -29,8 +30,8 @@
                 </div>
             </div>
         </div>
-        
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+<!--fi bucle productes-->        
+        <!-- <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
@@ -41,9 +42,9 @@
                     <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <!-- <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
@@ -54,7 +55,7 @@
                     <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
 </section>
