@@ -4,20 +4,32 @@
     
     <div class="container" data-aos="fade-up">
         <div class="section-title">
-            <h2>Productes</h2>
-            <h3>Revisa els nostres<span>Productes</span></h3>
-            <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+            <h2>Els nostres productes</h2>
+            <h3>Revisa els nostres<span> Productes</span></h3>
+            <p>Explora els nostres productes.</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-app">App</li>
+                    <li data-filter="*" class="filter-active">Productes</li>
                 </ul>
             </div>
         </div>
 
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <img src="/img/auricular.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>App 1</h4>
+                    <p>App</p>
+                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+        </div>
+        
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -30,7 +42,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
