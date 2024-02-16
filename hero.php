@@ -2,11 +2,7 @@
 <link href="assets/css/style.css" rel="stylesheet">
 <script src="assets/js/main.js"></script>
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h1>Welcome to <span>BizLand</span></h1>
-      <h2>We are team of talented designers making websites with Bootstrap</h2>
-      <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-      </div>
+      <h1>Informática <span>Online</span></h1>
+      <h2>Benvinguts a la nostra botiga</h2>
     </div>
   </section>
