@@ -5,8 +5,8 @@
 
         <div class="section-title">
           <h2>Nosaltres</h2>
-          <h3>Find Out More <span>About Us</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <h3>Troba més sobre<span> Nosaltres</span></h3>
+          <p>Som una petita empresa enfocats en l'àmbit informàtic.</p>
         </div>
 
         <div class="row">
@@ -14,11 +14,7 @@
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
+            <h3>A Informàtica Online ens dediquem a vendre tot tipus de productes informàtics per als notres clients</h3>
             <ul>
               <li>
                 <i class="bx bx-store-alt"></i>
