@@ -13,6 +13,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4><a href="">Actualitzar</a></h4>
+              <p>Servei per Actualitzar</p> 
               
             </div>
           </div>
@@ -21,6 +22,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href=""></a>Esborrar</h4>
+              <p>Servei per esborrar</p>
             
             </div>
           </div>
@@ -29,6 +31,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4><a href="">Afegir</a></h4>
+              <p></p>
               
             </div>
           </div>

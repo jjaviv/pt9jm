@@ -13,8 +13,8 @@
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                     <li data-filter="*" class="filter-active">Tots</li>
-                    <li data-filter=".filter-app">Teclats</li>
-                    <li data-filter=".filter-card">Auriculars</li>
+                    <li data-filter=".filter-teclats">Teclats</li>
+                    <li data-filter=".filter-auriculars">Auriculars</li>
                     <!--bucle categories-->
                 </ul>
             </div>
