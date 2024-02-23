@@ -25,10 +25,10 @@
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <ul id="portfolio-filters">
                     <li data-filter="*" class="filter-active">Tots</li>
-                    <php foreach ($woocommerce->get('products/categories')as $cat){
+                    <?php foreach ($woocommerce->get('products/categories')as $cat){
                     if($cat->id != "15")
-                    echo '<li data-filter=".filter-'.$cat->name.'">'$.cat->name.'</li>';
-                }
+                    echo '<li data-filter=".filter-'.$cat->name.'">'.$cat->name.'</li>';
+                }?>
                 </ul>
                 <!-- <img src="/img/auricular.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
