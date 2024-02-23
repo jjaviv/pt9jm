@@ -13,7 +13,9 @@ echo '<div class="col-md-1 form-group" ><input class="form-control" id="id" name
 
 echo <div class="col-md-1 form-group" ><input class="form-control" img-responsive" name="src_image" src="'.$src_image.'" style="width:4vw;" type="image"></div>';
 echo <div class="col-md-1 form-group" ><input class="form-control"
-
+echo '<div class="col-md-4 form-group"><input class="form-control" name="short_description" value="'.strip_tags($post->short_description).'"  type="text"></div>';
+echo '<div class="col-md-1 form-group"><button class="btn center" formaction="seevei_actualitzar_id.php"><i class="bi bi-arrow-clockwise"></i></button></div>';
+echo "</form></div>";
 ?>   
 </body>
 </html>
