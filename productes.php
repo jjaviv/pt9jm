@@ -23,13 +23,20 @@
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <img src="/img/auricular.png" class="img-fluid" alt="">
+                <ul id="portfolio-filters">
+                    <li data-filter="*" class="filter-active">Tots</li>
+                    <php foreach ($woocommerce->get('products/categories')as $cat){
+                    if($cat->id != "15")
+                    echo '<li data-filter=".filter-'.$cat->name.'">'$.cat->name.'</li>';
+                }
+                </ul>
+                <!-- <img src="/img/auricular.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>App 1</h4>
                     <p>App</p>
                     <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
                     <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
+                </div> -->
             </div>
         </div>
 <!--fi bucle productes-->        
