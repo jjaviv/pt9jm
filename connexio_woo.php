@@ -16,7 +16,7 @@ $woocommerce = new Client(
     ]
 );
 
-//print("<pre>");
-//print_r($woocommerce->get('products'));
-//print("</pre>");
+/* print("<pre>");
+print_r($woocommerce->get('products'));
+print("</pre>"); */
 ?>
