@@ -31,7 +31,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4><a href="">Afegir</a></h4>
-              <p></p>
+              <p>Servei per afegir</p>
               
             </div>
           </div>
