@@ -46,10 +46,9 @@
                 echo '<div class="col-lg-4 col-md-6 portfolio-item filter-'.$product_categoria.'">';
                 echo '<img src="'. $product_image.'" class="img-fluid" alt="">';
                 echo ' <div class="portfolio-info">';
-                echo ' <h4>App 1</h4>';
-                echo '<p>App</p>';
-                echo ' <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>';
-                echo ' <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>';
+                echo ' <h4>'.$product_id.'</h4>';
+                echo '<p>'.$short_description.'</p>';
+                echo ' <a href="'.$product_image.'" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="'.$short_description.'"><i class="bx bx-plus"></i></a>';
                 echo '</div>';
                 echo '  </div>';
 
