@@ -5,7 +5,7 @@
 
         <div class="section-title">
           <h2>Serveis</h2>
-          <h3>Consulta els nostres <span>serveis</span></h3>
+          <h3>Consulta els nostres <span>Serveis</span></h3>
         </div>
 
         <div class="row">
