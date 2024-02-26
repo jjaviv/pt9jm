@@ -13,7 +13,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4><a href="">Actualitzar</a></h4>
-              <p>Servei per Actualitzar</p> 
+              <p>Servei per actualitzar</p> 
               
             </div>
           </div>
