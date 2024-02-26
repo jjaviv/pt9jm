@@ -12,7 +12,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Actualitzar</a></h4>
+              <h4><a href="servei_actualitzar.php">Actualitzar</a></h4>
               <p>Servei per actualitzar</p> 
               
             </div>

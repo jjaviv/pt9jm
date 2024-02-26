@@ -1,0 +1,1 @@
+<?php print_r($woocommerce->delete('products/794', ['force' => true])); ?>
