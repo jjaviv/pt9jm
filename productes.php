@@ -43,20 +43,14 @@
                 echo "<p>Descripció curta: $short_description</p>";
                 echo "<img src='$product_image' alt='Imatge del producte' /><br><br>"; */
 
-                echo '<div class="col-lg-4 col-md-6 portfolio-item filter-'.$product_categoria.'">';
-                echo '<img src="'. $product_image.'" class="img-fluid" alt="">';
+                echo '<div class="col-lg-4 col-md-6 portfolio-item filter-' . $product_categoria . '">';
+                echo '<img src="' . $product_image . '" class="img-fluid" alt="">';
                 echo ' <div class="portfolio-info">';
-                echo ' <h4>'.$product_name.'</h4>';
-                echo '<p>'.$short_description.'</p>';
-                echo ' <a href="'.$product_image.'" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="'.$short_description.'"><i class="bx bx-plus"></i></a>';
+                echo ' <h4>' . $product_name . '</h4>';
+                echo '<p>' . $short_description . '</p>';
+                echo ' <a href="' . $product_image . '" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="' . $short_description . '"><i class="bx bx-plus"></i></a>';
                 echo '</div>';
                 echo '  </div>';
-
-
-
-
-
-
             }
             ?>
             <!--fi bucle productes-->
