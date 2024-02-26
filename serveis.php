@@ -22,7 +22,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="servei_actualitzar.php"></a>Esborrar</h4>
-              <p>Servei per Esborrar</p>
+              <p>Servei per esborrar</p>
             
             </div>
           </div>
