@@ -21,7 +21,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href=""></a>Esborrar</h4>
+              <h4><a href="servei_actualitzar.php"></a>Esborrar</h4>
               <p>Servei per Esborrar</p>
             
             </div>
