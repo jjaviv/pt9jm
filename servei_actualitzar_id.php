@@ -1,7 +1,11 @@
 <?php
+include('connexio_woo.php'); 
+$id=$_POST['id'];
+
+$short_description=$_POST['short_description'];
 $data = [
-    'regular_price' => '24.54'
+    'short_description' => $short_description,
 ];
 
-print_r($woocommerce->put('products/794', $data));
+print_r($woocommerce->put('products/'.$id, $data));
 ?>
