@@ -36,11 +36,28 @@
                 $product_name = $producte->name;
                 $short_description = $producte->short_description;
                 $product_image = $producte->images[0]->src;
+                $product_categoria = $producte->categories[0]->name;
 
-                echo "<h2>ID: $product_id</h2>";
+                /* echo "<h2>ID: $product_id</h2>";
                 echo "<h3>Nom: $product_name</h3>";
                 echo "<p>Descripció curta: $short_description</p>";
-                echo "<img src='$product_image' alt='Imatge del producte' /><br><br>";
+                echo "<img src='$product_image' alt='Imatge del producte' /><br><br>"; */
+
+                echo '<div class="col-lg-4 col-md-6 portfolio-item filter-'.$product_categoria.'">';
+                echo '<img src="'. $product_image.'" class="img-fluid" alt="">';
+                echo ' <div class="portfolio-info">';
+                echo ' <h4>App 1</h4>';
+                echo '<p>App</p>';
+                echo ' <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>';
+                echo ' <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>';
+                echo '</div>';
+                echo '  </div>';
+
+
+
+
+
+
             }
             ?>
             <!--fi bucle productes-->
